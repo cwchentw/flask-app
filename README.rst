@@ -15,6 +15,8 @@ Run with this command:
 
 If not specified, this command runs developmental version of your website.  For production version of your website, set **FLASK_CONFIG** to *production*.
 
+The server runs in HTTPS connection, default to https://localhost:5000 .  For   safer connection, create your own key/cert pairs with OpenSSL or other tools.
+
 Reference
 =========
 
